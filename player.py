@@ -15,7 +15,7 @@ def triangle(self):
     return [a, b, c]
 
 def draw(self,screen):
-    tri = pygame.draw.polygon(sceen,"white", self.triangle(),LINE_WIDTH)
-    return tri
+    pygame.draw.polygon(sceen,"WHITE", self.triangle(),LINE_WIDTH)
+    return
 
 
